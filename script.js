@@ -1,4 +1,4 @@
-let projects=["TrixxatiNum.js"]
+let projects=["TrixxatiNum.js [SCRAPPED]"]
 let empty=[]
 ul = document.querySelector("#ul")
 if (projects!==empty){
@@ -11,5 +11,8 @@ if (projects!==empty){
         subnode.appendChild(textnode)
         node.appendChild(subnode)
         ul.appendChild(node)
+        console.log("hibba".endsWith("bba"))
+        
+
     });
 }
